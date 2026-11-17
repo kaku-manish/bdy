@@ -26,11 +26,11 @@ export const birthdayData = {
 
   // 3. Welcome Screen Settings
   welcome: {
-    badge: "A Very Special Celebration ✨",
-    greeting: "Hey Lalli! ❤️",
-    subheading: "Today is all about you...",
-    quote: "From traditional grace to starlit fests, you make every single memory unforgettable.",
-    buttonText: "Start Your Birthday Surprise ✨",
+    badge: "✦ A Grand Celebration Just For You ✦",
+    greeting: "Happy Birthday, Lalli! ♡",
+    subheading: "Today we celebrate you — your kindness, your sparkle, your dreams, and the wonderful person you are!",
+    quote: "Happy Birthday, Lalli.",
+    buttonText: "Celebrate Lalli's Birthday ➔",
   },
 
   // 4. Photo Gallery Memories (Matched to Lalli's Real Photographs)

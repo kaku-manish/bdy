@@ -46,7 +46,7 @@ export default function App() {
       <MusicPlayer autoPlayTrigger={musicTrigger} />
 
       {/* 3. Main Stage Content with Smooth Transitions */}
-      <main className="w-full pt-10 sm:pt-14 pb-20 sm:pb-24">
+      <main className={`w-full ${currentStageIndex === 0 ? 'pt-0 pb-0' : 'pt-10 sm:pt-14 pb-20 sm:pb-24'}`}>
         <AnimatePresence mode="wait">
           {currentStageIndex === 0 && (
             <motion.div
@@ -56,7 +56,7 @@ export default function App() {
               exit={{ opacity: 0, scale: 0.96, filter: 'blur(8px)' }}
               transition={{ duration: 0.5 }}
             >
-              <Welcome onStart={startJourney} />
+              <Welcome onStart={startJourney} onNavigate={goToStage} />
             </motion.div>
           )}
 
