@@ -296,62 +296,12 @@ export const birthdayData = {
     subtitle: "Something special is waiting inside. Are you ready to open your little surprise?",
     openButtonText: "✨ Open Your Surprise ✨",
     
-    // Typing Message Reveal
-    typingMessage:
-      "Lalli, You Are Truly One Of A Kind! 💗\n\nIf I could collect all the happiness, smiles, peace, and beautiful moments in this universe and put them inside this little box, I would give them all to you.\n\nYou deserve every beautiful thing life has to offer.\n\nMay your days always be filled with laughter, your heart with happiness, and your life with endless beautiful memories.\n\nHappy Birthday, Lalli! ❤️",
-
-    // Five Hidden Digital Gift Cards
-    gifts: [
-      {
-        id: "bouquet",
-        emoji: "🌹",
-        title: "A Bouquet Just For You",
-        subtitle: "A thousand red roses",
-        color: "from-rose-500 to-red-600",
-        message: "If I could send you a thousand roses, each one would carry a little reminder of how special you are.",
-      },
-      {
-        id: "sweetness",
-        emoji: "🍫",
-        title: "A Box Full Of Sweetness",
-        subtitle: "Pure sweet delights",
-        color: "from-amber-500 to-orange-600",
-        message: "A little sweetness for someone who makes life sweeter just by being in it.",
-      },
-      {
-        id: "keepsake",
-        emoji: "💎",
-        title: "Something Special",
-        subtitle: "Precious & rare keepsake",
-        color: "from-cyan-400 to-blue-600",
-        message: "A little keepsake to remind you that you are precious and one of a kind.",
-      },
-      {
-        id: "letter",
-        emoji: "💌",
-        title: "A Letter From My Heart",
-        subtitle: "Words straight from soul",
-        color: "from-pink-500 to-rose-600",
-        message: "Some feelings are too special to express in words, but this little letter carries a piece of my heart.",
-      },
-      {
-        id: "memory",
-        emoji: "🌙",
-        title: "One More Beautiful Memory",
-        subtitle: "An invitation together",
-        color: "from-purple-500 to-indigo-600",
-        message: "This isn't just a gift. It's an invitation to create another beautiful memory together.",
-      },
-    ],
-
-    // Final Special Invitation
-    invitation: {
-      unlockPrompt: "💗 Unlock One Last Surprise 💗",
-      heading: "A Little Question From My Heart ✨",
-      text: "Lalli, the best gift isn't something wrapped in a box.\n\nIt's the happiness of creating beautiful memories with someone special.\n\nSo, here's my little question...\n\nWould you like to create one more unforgettable memory with me?",
-      acceptButton: "YES! Let's Make A Memory ❤️",
-      acceptedMessage: "Yayyy! One More Beautiful Memory Awaits Us! 🥹❤️",
-      closingSubtitle: "You make every single day brighter, Lalli. Happy Birthday! 💫",
+    // Revealed Surprise: Paris Dream Promise
+    parisSurprise: {
+      image: "/images/paris-surprise.jpg",
+      title: "Under The Paris Sunset... Just For You, Lalli! 🗼✨",
+      quote: "I love u Lalli, within 3 years we are going there to celebrate your 25th bdy ❤️",
+      tagline: "No gift in the whole world wrapped in a box can ever match the journey and memories we are going to build together. Paris is waiting for us, my love! 🗼🌅",
     },
 
     replayButtonText: "Relive The Birthday Journey 🔁",
